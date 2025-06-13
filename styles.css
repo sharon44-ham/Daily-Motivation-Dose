@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(-45deg, #fcb7b7, #dfaad9, #c1c8e4, #c1f0f6);
+    background-size: 200% 200%;
+    animation: gradientMove 10s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(16px);
+    border-radius: 18px;
+    box-shadow: 0 12px 32px rgba(31, 38, 135, 0.13);
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    max-width: 350px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #dfaad9;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    outline: none;
+    background: #fff7fa;
+    color: #854C65;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid #c1c8e4;
+}
+
+button[type="submit"] {
+    font-size: 1.1rem;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #ffd6e0;
+    color: #b85c8e;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(255, 182, 193, 0.15);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #ffe3ec;
+    color: #a14c7e;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.18);
+}
