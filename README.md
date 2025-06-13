@@ -50,7 +50,7 @@ Now it’s my daily go-to — and maybe it can be yours too.
 
 ## 🌐 Deployment
 
-This app is live on [Netlify]([https://dailymotivationdose.netlify.app/quote.html]) — click and get motivated!
+This app is live on [Netlify](https://dailymotivationdose.netlify.app/quote.html) — click and get motivated!
 
 To run locally:
 ```bash
