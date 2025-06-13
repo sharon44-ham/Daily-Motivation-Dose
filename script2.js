@@ -6,7 +6,7 @@ function saveName(evt) {
     const username = nameInput.value.trim();
     if (username !== "") {
         localStorage.setItem("motivationUser", username);
-        window.location.href = "index.html";
+        window.location.href = "quote.html";
     } else {
         alert("Please enter your name.");
     }
@@ -18,6 +18,6 @@ if (btn) {
 
 // Redirect to main app if user already saved their name
 const savedName = localStorage.getItem("motivationUser");
-if (savedName && window.location.pathname.includes("name.html")) {
-    window.location.href = "index.html";
+if (savedName && window.location.pathname.includes("index.html")) {
+    window.location.href = "quote.html";
 }
